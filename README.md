@@ -4,6 +4,8 @@
 
 A [JS1K](http://js1k.com/2017-magic/) Submission based on the [Arecibo Message](https://en.wikipedia.org/wiki/Arecibo_message).
 
+![](http://i.imgur.com/sTphPUs.gif)
+
 ![](http://i.imgur.com/jX9BFDS.png)
 
 ## Files
@@ -29,4 +31,7 @@ A [JS1K](http://js1k.com/2017-magic/) Submission based on the [Arecibo Message](
 ## Media
 
 - [Youtube WIP Preview](https://www.youtube.com/watch?v=99tts6_DnDg)
+
+[![](http://i.imgur.com/X9imOqu.png)](https://youtu.be/me2VWmGubok)
+
 - [Youtube Submission Video](https://youtu.be/me2VWmGubok)
