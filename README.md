@@ -4,7 +4,7 @@
 
 A [JS1K](http://js1k.com/2017-magic/) Submission based on the [Arecibo Message](https://en.wikipedia.org/wiki/Arecibo_message).
 
-![](http://i.imgur.com/sTphPUs.gif)
+<img src=http://i.imgur.com/sTphPUs.gif>
 
 ![](http://i.imgur.com/jX9BFDS.png)
 
