@@ -2,7 +2,7 @@
 
 # The Arecibo Message
 
-A [JS1K](http://js1k.com/2017-magic/) Submission based on the [Arecibo Message](https://en.wikipedia.org/wiki/Arecibo_message).
+A [JS1K](http://js1k.com/2017-magic/) Submission based on the [Arecibo Message](https://en.wikipedia.org/wiki/Arecibo_message) in 999 bytes.
 
 ![](arecibo.gif)
 
@@ -34,8 +34,8 @@ More information on the Arecibo Message: [wikipedia.org/wiki/Arecibo_message](ht
 
 ### JavaScript
 
-- `arecibo.js` the annotated source
-- `arecibo.min.js` the submission entry
+- [`arecibo.js`](arecibo.js) the annotated source
+- [`arecibo.min.js`](arecibo.min.js) the submission entry
 
 ### HTML
 
@@ -45,15 +45,15 @@ More information on the Arecibo Message: [wikipedia.org/wiki/Arecibo_message](ht
 
 ### Tools
 
-- `autogolfer.js` custom minification & optimization script
+- [`autogolfer.js`](tools/autogolfer.js) custom minification & optimization script
 - [`autogolfer.html`](https://tomhodgins.github.io/js1k-arecibo/tools/autogolfer.html) web-based UI for autogolfer
 - [`run-length-encoder.html`](https://tomhodgins.github.io/js1k-arecibo/tools/run-length-encoder.html) web-based demo of RLE encoder
 
 
 ## Media
 
-- [Youtube WIP Preview](https://www.youtube.com/watch?v=99tts6_DnDg)
-
 [![](http://i.imgur.com/X9imOqu.png)](https://youtu.be/me2VWmGubok)
 
 - [Youtube Submission Video](https://youtu.be/me2VWmGubok)
+
+- [Youtube WIP Preview](https://www.youtube.com/watch?v=99tts6_DnDg)
