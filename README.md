@@ -11,8 +11,8 @@ A [JS1K](http://js1k.com/2017-magic/) Submission based on the [Arecibo Message](
 
 ### HTML
 
-- `shim.html` the demo inside the JS1K shim
-- `standalone.html` the demo in a standalone HTML file
+- [`shim.html`](https://tomhodgins.github.io/js1k-arecibo/shim.html) the demo inside the JS1K shim
+- [`standalone.html`](https://tomhodgins.github.io/js1k-arecibo/standalone.html) the demo in a standalone HTML file
 
 
 ### Tools
