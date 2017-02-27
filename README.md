@@ -30,6 +30,11 @@ The Arecibo Message is our first “Hello World” to the universe and hopefully
 
 More information on the Arecibo Message: [wikipedia.org/wiki/Arecibo_message](https://en.wikipedia.org/wiki/Arecibo_message)
 
+## JS1K Links
+
+- JS1K Submission: [js1k.com/2017-magic/demo/2843](http://js1k.com/2017-magic/demo/2843)
+- Submission Details: [js1k.com/2017-magic/details/2843](http://js1k.com/2017-magic/details/2843)
+
 ## Files
 
 ### JavaScript
