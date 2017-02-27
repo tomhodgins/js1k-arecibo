@@ -1,6 +1,10 @@
+![](http://i.imgur.com/i639b9Z.png)
+
 # The Arecibo Message
 
 A [JS1K](http://js1k.com/2017-magic/) Submission based on the [Arecibo Message](https://en.wikipedia.org/wiki/Arecibo_message).
+
+![](http://i.imgur.com/jX9BFDS.png)
 
 ## Files
 
