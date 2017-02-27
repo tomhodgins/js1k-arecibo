@@ -12,7 +12,7 @@ Watch and listen to the Arecibo Message like an alien civilization intercepting 
 
 See the graphical representation of the signal assemble itself in front of your eyes as you hear audio playback of the signal being processed.
 
-The Arecibo Message is an interstellar message we (humans) sent into space using the Arecibo radio telescope in 1974. The original message contained 1679 binary bits, a number which can only be subdivided equally to produce a 23*73 (or 73*23) grid on which the binary values can be plotted to produce an image.
+The Arecibo Message is an interstellar message we (humans) sent into space using the Arecibo radio telescope in 1974. The original message contained 1679 binary bits, a number which can only be subdivided equally to produce a 23 by 73 (or 73 by 23) grid on which the binary values can be plotted to produce an image.
 
 The image encodes:
 
