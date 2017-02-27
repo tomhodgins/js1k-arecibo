@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<meta charset=utf-8>
+<meta name=viewport content="width=device-width, initial-scale=1">
+<title>🏃📏📥 Run Length Encoder</title>
+<textarea oninput="
+
+  /* Binary message to encode equal to input value */
+  var binary = value;
+
+  /* Create empty array to hold encoded numbers */
+  var encoded = [];
+
+  /* Start each sequence with zero */
+  var sequence = 0;
+
+  /* For each character in the original message */
+  for (var i=0; i<binary.length; i++) {
+
+    /* If not the last character in the message, */
+    /* and if the following number is equal to the current number */
+    if (binary[i+1] && binary[i+1] == binary[i]) {
+
+      /* Increment the sequence length by one */
+      sequence++
+
+    }
+
+    /* If there are no more characters left, */
+    /* or the following character is not equal to the current number */
+    if (!binary[i+1] || binary[i+1] !== binary[i]) {
+
+      /* Add the current sequence length to our encoded output */
+      encoded.push(sequence)
+
+      /* And reset the sequence length to zero */
+      sequence = 0
+
+    }
+
+  }
+
+  /* Display the RLE encoded result */
+  output.value = encoded
+
+"></textarea>
+<textarea id=output></textarea>
+<style>
+*{box-sizing:border-box}
+body{margin:0}
+html{-webkit-text-size-adjust:100%}
+textarea{
+  font-family:monospace;
+  width:50vw;
+  height:100vh;
+  float:left;
+  font-size:24pt;
+  padding:1em;
+}
+</style>

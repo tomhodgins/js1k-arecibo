@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<meta charset=utf-8>
+<meta name=viewport content="width=device-width, initial-scale=1">
+<title>🚗🏌️ Autogolfer</title>
+<textarea oninput="output.value = value
+
+
+  /* ### COMMENTS ### */
+
+    /* remove multiline comments */
+    .replace(/^\s*\/\*([\s\S]*?)\*\//gm,'')
+
+    /* remove single line comments */
+    .replace(/\/\/.*\n/g,'')
+
+
+  /* ### SPACES ### */
+
+    /* remove space after comma */
+    .replace(/, /g,',')
+
+    /* remove space before bracket open */
+    .replace(/ \(/g,'(')
+
+    /* remove space before curly bracket open */
+    .replace(/ \{/g,'{')
+
+    /* remove space before bracket close */
+    .replace(/\) /g,')')
+
+    /* remove space before curly bracket close */
+    .replace(/\} /g,'}')
+
+    /* remove space after semicolon */
+    .replace(/; /g,';')
+
+    /* remove space before operators */
+    .replace(/ ([+=\-\/\*<>\?\:%\^])/g,function(match,string){return string})
+
+    /* remove space after operators */
+    .replace(/([+=\-\/\*<>\?\:%\^]) /g,function(match,string){return string})
+
+    /* remove space around '==' */
+    .replace(/ == /g,'==')
+
+    /* remove space around '+= */
+    .replace(/ \+= /g,'+=')
+
+
+  /* ### GOLFS ### */
+
+    /* remove 'var ' */
+    .replace(/var /g,'')
+
+    /* replace Math.floor with '~~' */
+    .replace(/Math\.floor/g,'~~')
+
+    /* remove window */
+    .replace(/window\./g,'')
+
+
+  /*  ### VARIABLES ###  */
+
+    /* replace 'block_size' with h */
+    .replace(/block_size/g,'h')
+
+    /* replace 'synth' with i */
+    .replace(/synth/g,'i')
+
+    /* replace 'oscillator' with j */
+    .replace(/oscillator/g,'j')
+
+    /* replace 'gainModule' with k */
+    .replace(/gainModule/g,'k')
+
+    /* replace 'current_digit' with l */
+    .replace(/current_digit/g,'l')
+
+    /* replace 'current_block' with m */
+    .replace(/current_block/g,'m')
+
+    /* replace 'loop_count' with n */
+    .replace(/loop_count/g,'n')
+
+    /* replace 'message' with o */
+    .replace(/message/g,'o')
+
+    /* replace 'output' with p */
+    .replace(/output/g,'p')
+
+    /* replace 'current_character' with q */
+    .replace(/current_character/g,'q')
+
+    /* replace 'count' with r */
+    .replace(/count/g,'r')
+
+    /* replace 'animation' with s */
+    .replace(/animation/g,'s')
+
+
+  /* ### MINIFY ### */
+
+    /* remove empty lines */
+    .replace(/^\s*[\n]/gm,'')
+
+    /* trim preceeding whitespace */
+    .replace(/^\s*/gm,'')
+
+    /* remove line breaks */
+    .replace(/\n/g,'')
+
+"></textarea>
+<textarea id=output></textarea>
+<style>
+*{box-sizing:border-box}
+body{margin:0}
+html{-webkit-text-size-adjust:100%}
+textarea{
+  font-family:monospace;
+  width:50vw;
+  height:100vh;
+  float:left;
+  font-size:24pt;
+  padding:1em;
+}
+</style>
